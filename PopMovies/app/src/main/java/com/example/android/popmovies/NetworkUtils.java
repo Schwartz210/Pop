@@ -21,7 +21,6 @@ import java.util.Scanner;
 
 public class NetworkUtils {
     private static final String BASE_URL = "http://api.themoviedb.org/3/movie/popular?";
-    private static String API_KEY = "1808b9699aaf8a0a5d2656fadf8a3799";
     public static URL buildUrl(){
         Uri buildUri = Uri.parse(BASE_URL)
                 .buildUpon()
